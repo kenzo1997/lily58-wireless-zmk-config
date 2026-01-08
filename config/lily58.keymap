@@ -21,11 +21,11 @@
 
             display-name = "Base";
             bindings = <
-&kp TILDE   &kp N1  &kp N2  &kp N3  &kp N4    &kp N5                                 &kp N6         &kp N7    &kp N8     &kp N9   &kp N0    &kp BACKSPACE
-&kp TAB     &kp Q   &kp W   &kp E   &kp R     &kp T                                  &kp Y          &kp U     &kp I      &kp O    &kp P     &kp MINUS
-&kp ESCAPE  &kp A   &kp S   &kp D   &kp F     &kp G                                  &kp H          &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL   &kp Z   &kp X   &kp C   &kp V     &kp B           &kp LBKT     &kp RBKT  &kp N          &kp M     &kp COMMA  &kp DOT  &kp FSLH  &mo 1
-                            &mo 1   &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &kp RET   &kp RIGHT_WIN  &kp PLUS  &kp RGUI
+&kp TILDE   &kp N1  &kp N2  &kp N3  &kp N4   &kp N5                                 &kp N6         &kp N7         &kp N8      &kp N9   &kp N0    &kp BACKSPACE
+&kp TAB     &kp Q   &kp W   &kp E   &kp R    &kp T                                  &kp Y          &kp U          &kp I       &kp O    &kp P     &kp MINUS
+&kp ESCAPE  &kp A   &kp S   &kp D   &kp F    &kp G                                  &kp H          &kp J          &kp K       &kp L    &kp SEMI  &kp SQT
+&kp LCTRL   &kp Z   &kp X   &kp C   &kp V    &kp B           &kp LBKT     &kp RBKT  &kp N          &kp M          &kp COMMA   &kp DOT  &kp FSLH  &kp EQUAL
+                            &mo 1   &kp INS  &kp LEFT_SHIFT  &kp SPACE    &kp RET   &kp RIGHT_WIN  &kp RIGHT_ALT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -36,7 +36,7 @@
 &kp F1  &kp F2           &kp F3           &kp F3           &kp F5  &kp F6                             &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
 &kp P   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp S   &kp G                              &trans  &trans  &trans  &trans   &trans   &trans
 &kp P   &trans           &trans           &trans           &kp E   &kp B                              &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans           &trans           &trans           &kp I   &trans     &kp SPACE       &trans  &trans  &trans  &trans  &trans   &trans   &trans
+&mo 0   &trans           &trans           &trans           &kp I   &trans     &kp SPACE       &trans  &trans  &trans  &trans  &trans   &trans   &trans
                                           &trans           &trans  &kp LCTRL  &kp LEFT_ALT    &trans  &trans  &trans  &trans
             >;
         };
