@@ -22,14 +22,24 @@
 
             display-name = "Base";
             bindings = <
-&kp TILDE   &kp N1  &kp N2  &kp N3  &kp N4    &kp N5                                 &kp N6         &kp N7         &kp N8           &kp N9   &kp N0    &kp BACKSPACE
-&kp TAB     &kp Q   &kp W   &kp E   &kp R     &kp T                                  &kp Y          &kp U          &kp I            &kp O    &kp P     &kp MINUS
-&kp ESCAPE  &kp A   &kp S   &kp D   &kp F     &kp G                                  &kp H          &kp J          &kp K            &kp L    &kp SEMI  &kp SQT
-&kp LCTRL   &kp Z   &kp X   &kp C   &kp V     &kp B           &kp LBKT     &kp RBKT  &kp N          &kp M          &kp COMMA        &kp DOT  &kp FSLH  &kp EQUAL
-                            &sl 1   &kp LALT  &kp LEFT_SHIFT  &kp SPACE    &kp RET   &kp RIGHT_WIN  &kp RIGHT_ALT  &kp RIGHT_SHIFT
+&trans      &trans          &trans          &trans              &trans            &trans                           &trans  &trans             &trans       &trans           &trans                   &trans
+&kp TAB     &kp Q           &kp W           &kp E               &kp R             &kp T                            &kp Y   &kp U              &kp I        &kp O            &kp P                    &kp MINUS
+&kp ESCAPE  &mt LEFT_ALT A  &mt LEFT_WIN S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G                            &kp H   &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_GUI L  &mt RIGHT_ALT SEMICOLON  &kp SQT
+&kp TILDE   &kp Z           &kp X           &kp C               &kp V             &kp B   &kp LBKT       &kp RBKT  &kp N   &kp M              &kp COMMA    &kp DOT          &kp FSLH                 &kp EQUAL
+                                            &trans              &trans            &to 3   &lt 1 SPACE    &kp RET   &to 2   &trans             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans          &trans                    &trans  &trans           &trans          &trans     &trans  &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4          &kp N5                    &kp N6  &kp N7           &kp N8          &kp N9     &kp N0  &trans
+&trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &trans                    &trans  &kp RIGHT_SHIFT  &kp UP_ARROW    &trans     &trans  &kp BACKSPACE
+&trans  &trans  &trans  &trans  &trans          &trans  &trans    &trans  &trans  &kp LEFT         &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
+                        &trans  &trans          &trans  &trans    &trans  &trans  &trans           &trans
+            >;
         };
 
         layer_5 {
@@ -39,6 +49,16 @@
 &kp TAB          &kp KP_NUMBER_9  &kp H            &kp Z   &kp E  &kp B                                   &trans          &trans      &trans  &trans   &trans   &trans
 &kp LCTRL        &kp N            &kp P            &kp X   &kp I  &kp R           &kp SPACE       &trans  &trans          &trans      &trans  &trans   &trans   &trans
                                                    &sl 0   &kp J  &kp LEFT_SHIFT  &kp LEFT_ALT    &trans  &trans          &trans      &trans
+            >;
+        };
+
+        llll {
+            bindings = <
+&trans     &trans     &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans     &trans  &kp W   &trans  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans     &kp A   &kp S   &kp D   &trans                       &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp LSHFT  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans  &trans  &trans  &kp SPACE    &trans  &trans  &trans  &trans
             >;
         };
     };
