@@ -53,11 +53,11 @@
 
         test_34key_blender_layer_object {
             bindings = <
-&trans  &trans     &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp E      &kp R   &kp I   &kp A   &kp D                        &kp F   &trans  &trans  &trans  &trans  &trans
-&trans  &kp G      &kp K   &kp Z   &kp B   &kp LCTRL                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LSHFT  &kp N4  &kp N8  &kp N6  &kp N2     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                           &trans  &kp F3  &trans     &trans    &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LSHFT  &kp LCTRL  &kp A   &kp G   &kp R                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp S      &kp TAB    &kp X   &kp D   &kp Z                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F3     &kp I      &kp N   &kp H   &kp Q   &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans  &trans  &mo 3   &kp LALT    &trans  &trans  &trans  &trans
             >;
         };
 
