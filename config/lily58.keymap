@@ -73,11 +73,11 @@
 
         test_34key_blender_layer_sculpt {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp R   &kp Z   &kp LCTRL  &kp G                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp K   &kp V   &kp LSHFT  &kp C                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &mo 3   &kp I   &kp T      &kp F   &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans     &trans  &kp LALT    &trans  &trans  &trans  &trans
             >;
         };
 
