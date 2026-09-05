@@ -63,11 +63,11 @@
 
         test_34key_blender_layer_edit {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+&trans  &trans   &trans              &trans  &trans  &trans                                           &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp TAB  &kp E               &kp R   &kp S   &kp I                                            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F3   &kp G               &kp A   &kp B   &kp K                                            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &mo 3    &mt LSHFT NUMBER_3  &kp F   &kp P   &kp J               &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                     &trans  &trans  &mt LCTRL NUMBER_2  &mt LALT NUMBER_1    &trans  &trans  &trans  &trans
             >;
         };
 
